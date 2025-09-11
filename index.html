@@ -40,17 +40,17 @@
             <div class="navbar sora">
                 <div class="navbar-start">
                     <img src="c1-assets/logo-header.png" alt="logo">
-                    <a class="text-xl hidden lg:inline pl-3">Browse<span class="p_color">4</span>Pets</a>
+                    <a class="hidden lg:inline pl-3 text-3xl">Browse<span class="p_color">4</span>Pets</a>
                 </div>
-                <div class="navbar-center">
-                    <ul class="flex align-center gap-8 text-lg justify-center">
+                <div class="navbar-center hidden lg:inline">
+                    <ul class="flex align-center gap-8 justify-center text-xl">
                         <li><a>Find a Pet</a></li>
                         <li><a>Breads</a></li>
                         <li><a>Contact Us</a></li>
                     </ul>
                 </div>
 
-                <div class="navbar-end">
+                <div class="navbar-end text-xl hidden lg:inline-flex">
                     <button class="btn btn-ghost btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -58,7 +58,6 @@
                                 d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
                         </svg>
                     </button>
-
                     <button class="btn btn-ghost btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
@@ -66,8 +65,11 @@
                                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
                     </button>
-                    <button class="btn btn-outline btn-warning">Login</button>
-                    <button class="btn btn-warning text-black">Register</button>
+                    <button class="btn btn-outline btn-warning text-black text-lg">Login</button>
+                    <button class="btn btn-warning text-black ml-3 text-lg">Register</button>
+                </div>
+                <div class="navbar-end lg:hidden">
+                    <button class="w-8 h-8 text-3xl"><i class="fa-solid fa-bars"></i></button>
                 </div>
             </div>
         </nav>
