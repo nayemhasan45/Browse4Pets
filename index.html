@@ -16,6 +16,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
+        /* custom colors */
         .header_bg {
             background-color: #FFF9F4;
         }
@@ -23,7 +24,10 @@
         .p_color {
             color: #FFDC26;
         }
-
+        .banner_p {
+            color: #111;
+        }
+        /* font family */
         .sora {
             font-family: "Sora", sans-serif;
         }
@@ -65,8 +69,8 @@
                                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
                     </button>
-                    <button class="btn btn-outline btn-warning text-black text-lg">Login</button>
-                    <button class="btn btn-warning text-black ml-3 text-lg">Register</button>
+                    <button class="btn btn-outline btn-warning text-black text-lg font-normal">Login</button>
+                    <button class="btn btn-warning text-black ml-3 text-lg font-normal">Register</button>
                 </div>
                 <div class="navbar-end lg:hidden">
                     <button class="w-8 h-8 text-3xl"><i class="fa-solid fa-bars"></i></button>
@@ -74,6 +78,26 @@
             </div>
         </nav>
     </header>
+    <main>
+        <!-- banner section  -->
+        <section class="banner max-w-screen-2xl mx-auto mt-20">
+            <div class=" min-h-screen bg-no-repeat bg-right"
+                style="background-image: url('c1-assets/cat-big.png');">
+                <div class="hero-content items-start justify-start w-full text-neutral-content pt-8">
+                        <div class="max-w-md text-left">
+                        <h1 class="mb-5 text-5xl/tight text-black font-normal adlam  ">Pamper Your Pet,<br>Because They<br>Deserve the
+                            Bes</h1>
+                        <p class="mb-6 text-black sora banner_p">
+                            Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now
+                            and make tails wag with joy!
+                        </p>
+                        <button class="btn btn-warning text-black text-lg sora font-normal">Find a pet</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner section end  -->
+    </main>
 </body>
 
 </html>
