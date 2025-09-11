@@ -37,6 +37,14 @@
             background-color: #F9DF8A;
         }
 
+        .low_price_bg {
+            background: linear-gradient(109deg, #F8CCFB 1.27%, #ACD2FD 100%);
+        }
+
+        .Tshirt_bg {
+            background: linear-gradient(109deg, #FFF9F4 1.27%, #F9DF8A 100%);
+        }
+
         /* font family */
         .sora {
             font-family: "Sora", sans-serif;
@@ -333,7 +341,8 @@
                                 <p class="text-gray-700 text-sm">$39.99</p>
                             </div>
                         </div>
-                        <div class="card card-side bg-base-100 shadow-sm p-3 items-center sora rounded-xl product-card hidden lg:inline-flex">
+                        <div
+                            class="card card-side bg-base-100 shadow-sm p-3 items-center sora rounded-xl product-card hidden lg:inline-flex">
                             <figure class="lg:w-24 lg:h-24 rounded-md header_bg p-3 flex items-center justify-center">
                                 <img src="c1-assets/pet-couch.png" alt="dog" />
                             </figure>
@@ -351,6 +360,33 @@
             </div>
         </section>
         <!-- pet product section end  -->
+
+        <!-- low price section  -->
+
+        <section class="max-w-screen-2xl mx-auto mt-10 lg:mt-20 px-4 lg:px-0 mb-10 lg:mb-20">
+            <h1 class="mb-8 text-2xl lg:text-4xl font-normal adlam text-black">Everyday low Price</h1>
+            <div class="low_price_card flex flex-col  gap-4 lg:flex-row lg:gap-7">
+                <div class="left_card low_price_bg flex items-center justify-between rounded-xl w-full lg:w-2/3 p-10 lg:p-15">
+                    <div>
+                        <p class="sora">Under Price</p>
+                        <h1 class="adlam text-xl lg:text-4xl">Pet Grooming Mitt</h1>
+                        <p class="text-white">(Easy Hair Removal)</p>
+                        <p class="adlam text-2xl lg:text-5xl">$7.99</p>
+                    </div>
+                    <div class="wd-1/2 lg:w-1/3">
+                        <img src="c1-assets/cute-dog-mid.png" alt="">
+                    </div>
+                </div>
+                <div class="right_card flex Tshirt_bg  rounded-xl w-full lg:w-1/3 p-10 lg:p-15 items-start justify-between">
+                    <div>
+                        <h1 class="adlam text-xl lg:text-4xl">T-Shirt for Dogs</h1>
+                        <p class="adlam text-xl lg:text-5xl text-yellow-400">$7.99</p>
+                    </div>
+                    <div><img src="c1-assets/cute-pet-mid.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <!-- low price section end -->
     </main>
 </body>
 
