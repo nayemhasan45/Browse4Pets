@@ -2,6 +2,8 @@ Pet Shop E-commerce Website
 
 A modern, responsive e-commerce website for a pet shop built with HTML, CSS, and Tailwind CSS. Features a clean design with a unique overlapping layout and mobile-first approach.
 
+Live link : https://nayemhasan45.github.io/Browse4Pets/
+
 Features
 
 Fully responsive design that works on all devices
