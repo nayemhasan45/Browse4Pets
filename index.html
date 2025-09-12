@@ -26,7 +26,7 @@
         }
 
         .product_color {
-            color: RGB 87 79 53
+            color: RGB 87 79 53;
         }
 
         .banner_p {
@@ -390,21 +390,80 @@
         </section>
         <!-- low price section end -->
 
-        <!-- news section  -->
-        <section class="max-w-screen-2xl mx-auto mt-10 lg:mt-20 px-4 lg:px-0 mb-10 lg:mb-20">
-            <div class="header_bg rounded-xl p-9 flex justify-center items-center gap-10 lg:gap-20 flex-col lg:flex-row">
-                <div class="lg:w-1/3">
-                    <img src="c1-assets/cute-pet-mid.png" alt="">
+        <!-- News section -->
+        <section class="max-w-screen-2xl mx-auto mt-10 lg:mt-20 px-4 lg:px-0 relative z-10">
+            <div class="header_bg rounded-xl p-9 flex justify-center items-center gap-10 lg:gap-20 flex-col lg:flex-row shadow-lg">
+                <div class="lg:w-2/5">
+                    <img class="lg:pl-24" src="c1-assets/cute-pet-mid.png" alt="">
                 </div>
-                <div class="lg:w-2/3">
+                <div class="lg:w-3/5 text-center lg:text-left">
                     <h1 class="mb-3 lg:mb-8 text-2xl lg:text-4xl font-normal adlam text-black">Get Pawsome News!</h1>
                     <p class="mb-3 lg:mb-8">Exclusive training tips, ticks, product deals and more.</p>
-                    <input class="block border-none p-3 mb-3 lg:mb-8 bg-white rounded-lg lg:w-1/3" placeholder="Enter Email" type="email" name="" id="">
+                    <input class="block border-none p-3 mb-3 lg:mb-8 bg-white rounded-lg lg:w-1/3"
+                        placeholder="Enter Email" type="email" name="" id="">
                     <button class="btn btn-warning text-black text-lg font-normal">Subscribe</button>
                 </div>
             </div>
         </section>
-        <!-- news section end -->
+        <!-- News section end -->
+
+        <!-- Footer section with half overlap -->
+        <footer class="s_bg_color relative z-0 -mt-72 lg:-mt-48">
+            <div class="max-w-screen-2xl mx-auto flex flex-col lg:flex-row justify-start items-start lg:justify-between pt-96 pb-20 lg:pt-80 lg:pb-25 px-4 lg:px-0 gap-5 lg:gap-0">
+                <div>
+                    <div class="flex items-center gap-3 sora mb-3 lg:mb-8">
+                        <img src="c1-assets/logo-footer.png" alt="logo">
+                        <a class="text-xl lg:text-3xl">Browse<span class="p_color">4</span>Pets</a>
+                    </div>
+                    <p class="sora text-gray-700">Discover a world of treats, toys, and <br> essentials handpicked for
+                        your furry  friends
+                    </p>
+                </div>
+                <div class="sora text-base lg:text-xl flex flex-col">
+                    <a class="link  no-underline">Find a Pet</a>
+                    <a class="link no-underline py-1 lg:py-8">Breeds</a>
+                    <a class="link no-underline">Contact Us</a>
+                </div>
+                <div class="lg:pt-14">
+                    <div class="">
+                        <h6 class=" sora text-black  text-lg lg:text-2xl">Follow Us</h6>
+                        <div class="grid grid-flow-col gap-4 pt-4">
+                            <a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    class="fill-current">
+                                    <path
+                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    class="fill-current">
+                                    <path
+                                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    class="fill-current">
+                                    <path
+                                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a>
+                                <i class="fa-brands fa-square-instagram text-2xl"></i>
+                            </a>
+                            <a>
+                                <i class="fa-brands fa-linkedin text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer section end -->
     </main>
 </body>
 
